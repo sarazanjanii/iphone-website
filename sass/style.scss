@@ -2,3 +2,40 @@
     margin: 0%;
     padding: 0%;
 }
+// -----------------------header1-------------------------------------
+.nav-bar-container{
+position: sticky;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+ul{
+    padding: 0%;
+    margin: 0%;
+}
+ul li{
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom:8px;
+}
+ul li a{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+  .header-1 {
+    // background-color: #7f7fe4;
+    height:500PX;
+    width: 100%;
+    background-image:url(photo\images.jpg);
+    background-position: center;
+    background-size: contain;
+}

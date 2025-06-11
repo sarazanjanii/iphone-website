@@ -1,6 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
+  font-family: inherit;
 }
 
 .nav-bar-container {
@@ -41,4 +42,71 @@ a {
   background-image: url(photoimages.jpg);
   background-position: center;
   background-size: contain;
+}
+
+.footer-section {
+  background-color: rgb(245, 245, 247);
+  font-size: 12px;
+}
+
+.footer-container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-p {
+  color: rgba(0, 0, 0, 0.5607843137);
+  margin-top: 15px;
+}
+
+.footer-ul-container {
+  margin-top: 20px;
+}
+
+.footer-h3 {
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.footer-li {
+  color: rgba(0, 0, 0, 0.7215686275);
+}
+
+.footer-li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-a {
+  text-decoration: underline;
+  color: #0066cc;
+}
+
+.footer-shop {
+  color: rgba(0, 0, 0, 0.5607843137);
+  margin-top: 30px;
+}
+
+.footer-copyright {
+  color: rgba(0, 0, 0, 0.5607843137);
+}
+
+.footer-legal-links-item {
+  display: inline;
+}
+
+.footer-legal-links-item:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-locale {
+  float: right;
+}
+
+.footer-locale:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 * {
     margin: 0%;
     padding: 0%;
-    font-family: inherit;
+    font-family: 'SF Pro Display', sans-serif;
 }
 
 // -----------------------header1-------------------------------------
@@ -39,14 +39,84 @@ a {
 }
 
 .header-1 {
-    // background-color: #7f7fe4;
-    height: 500PX;
-    width: 100%;
-    background-image: url(photo\images.jpg);
+
+    // padding-bottom: 56.25%;
+    background-image: url(../photo/hero_iphone_family__fuz5j2v5xx6y_medium.jpg);
+    background-size: cover;
     background-position: center;
-    background-size: contain;
+    height: 600px;
 }
 
+.header-1-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#first-para {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+
+#header-1-phara-1 {
+    font-size: 30px;
+    word-spacing: -1px;
+    margin-top: 5px;
+    color: #000000b8;
+
+}
+
+.header-1-link-1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 2px solid #0071e3;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    background-color: #0071e3;
+    font-size: 17px;
+    margin-right: 6px;
+    letter-spacing: 1px;
+
+}
+
+.header-1-link-2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 1px solid #0071e3;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(0, 102, 204);
+    font-size: 17px;
+    margin-left: 6px;
+}
+
+.header-1-link-2:hover {
+    color: white;
+    background-color: rgb(0, 102, 204);
+}
+
+
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: sans-serif;
+      background: linear-gradient(to right, #0066ff, rgb(206, 124, 223),rgb(219, 81, 123),#ffaa00); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text; 
+      color: transparent;
+      margin-top: 40px;
+    }
+// ---------------------------------------------footer---------------------------
 .footer-section {
     background-color: rgb(245, 245, 247);
     font-size: 12px;

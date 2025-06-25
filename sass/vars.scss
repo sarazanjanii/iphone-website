@@ -1,0 +1,43 @@
+@mixin learnmorebuttun{
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 2px solid #0071e3;
+    text-align: center;
+    border-radius: 50px;
+    color: white;
+    background-color: #0071e3;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+@mixin secendbuttun{
+      padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: 1px solid #0071e3;
+    text-align: center;
+    border-radius: 50px;
+    color: rgb(0, 102, 204);
+    font-size: 17px;
+    margin-left: 6px;
+}
+@mixin rainbowstyle{
+     font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    background: linear-gradient(to right, rgb(41, 117, 233), rgb(206, 124, 223), rgb(230, 79, 124), rgb(245, 167, 11));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+@mixin introstyle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    // فاصله کل متن ها با بالاش
+
+}
